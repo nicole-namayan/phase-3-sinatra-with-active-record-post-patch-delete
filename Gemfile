@@ -37,6 +37,10 @@ group :development do
   # Auto-reload the server when files are changed
   # https://github.com/alexch/rerun
   gem "rerun"
+  gem 'puma'
+  gem 'thin'
+  gem "falcon"
+  gem "webrick"
 
   gem "pry"
 end
